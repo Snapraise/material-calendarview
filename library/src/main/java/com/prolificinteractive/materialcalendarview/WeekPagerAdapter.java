@@ -36,7 +36,7 @@ public class WeekPagerAdapter extends CalendarPagerAdapter<WeekView> {
 
     public static class Weekly implements DateRangeIndex {
 
-        private static final int DAYS_IN_WEEK = 7;
+        private static final int DAYS_IN_WEEK = 14;
         private final CalendarDay min;
         private final int count;
 

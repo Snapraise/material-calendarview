@@ -22,7 +22,7 @@ public class WeekView extends CalendarPagerView {
 
     @Override
     protected void buildDayViews(Collection<DayView> dayViews, Calendar calendar) {
-        for (int i = 0; i < DEFAULT_DAYS_IN_WEEK; i++) {
+        for (int i = 0; i < 14; i++) {
             addDayView(dayViews, calendar);
         }
     }
@@ -34,6 +34,6 @@ public class WeekView extends CalendarPagerView {
 
     @Override
     protected int getRows() {
-        return DAY_NAMES_ROW + 1;
+        return DAY_NAMES_ROW + 2;
     }
 }
